@@ -1,7 +1,7 @@
 import os
 import shutil
 
-folder_path = input("Enter the folder path you want to organize: ")
+folder_path = input("Enter the folder path you want to organize: ").strip()
 
 if os.path.exists(folder_path) and os.path.isdir(folder_path):
     print("Folder found successfully.")

@@ -35,3 +35,7 @@ Time Spent: 30 minutes
 - Added support for more file types including GIF, DOC, MOV, WAV, CSV, XLSX, and PPTX
 - Improved file organization categories for spreadsheets and slides
 - Tested updated sorting behavior
+- ### Work Session 5 - Miesha
+Time Spent: 20 minutes
+- Improved user input handling by removing extra spaces from the folder path
+- Tested folder path input again
