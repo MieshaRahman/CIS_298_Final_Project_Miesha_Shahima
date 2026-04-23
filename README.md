@@ -1,157 +1,104 @@
 # Python File Organizer Tool
 
 ## Team Members
-- Miesha
-- Shahima
+- Miesha  
+- Shahima  
+
+---
 
 ## Project Description
-This project is a Python File Organizer Tool. It organizes files in a selected folder into categories such as Images, PDFs, Documents, Videos, Music, Spreadsheets, Slides, Archives, and Others using Python libraries.
-
-## Libraries Used
-- os
-- shutil
+This project is a Python File Organizer Tool that automatically organizes files in a selected folder into categories such as Images, Documents, Videos, Music, and more. The program improves file management by sorting files based on their extensions.
 
 ---
 
 ## Features
-- Organizes files automatically based on file type
-- Supports multiple file formats (images, documents, videos, music, etc.)
+- Automatically organizes files into folders
+- Supports multiple file types
 - Creates folders if they do not exist
 - Skips hidden/system files
 - Handles permission errors safely
-- Displays summary of files moved
-- Provides user-friendly messages
+- Displays summary of moved files
+- User-friendly messages
 
 ---
 
 ## How to Run
-1. Open `organizer.py`
-2. Run the program
-3. Enter the folder path you want to organize
-4. The program will sort files into folders automatically
+1. Open the project in PyCharm  
+2. Open `organizer.py`  
+3. Run the program  
+4. Enter the full folder path when prompted  
+5. Files will be organized automatically  
+
+---
+
+## User Manual
+- Run the program using `organizer.py`
+- Enter a valid folder path
+- The program creates folders for each file category
+- Files are moved into corresponding folders
+- A summary is displayed after execution
+
+---
+
+## Supported File Types
+- **Images:** .jpg, .png, .jpeg, .gif  
+- **PDFs:** .pdf  
+- **Documents:** .docx, .txt, .doc  
+- **Videos:** .mp4, .mov  
+- **Music:** .mp3, .wav  
+- **Spreadsheets:** .csv, .xlsx  
+- **Slides:** .pptx  
+- **Archives:** .zip, .rar  
+- **Others:** Any unsupported file type  
+
+---
+
+## Testing Notes
+- Tested with different file types  
+- Verified correct folder creation  
+- Confirmed proper file movement  
+- Tested invalid folder paths  
+- Checked summary output accuracy  
+
+---
+
+## Troubleshooting
+- Ensure the folder path is correct  
+- Avoid using system folders like `C:\`  
+- Close files that may be in use  
+- Make sure Python interpreter is configured  
 
 ---
 
 ## Work Log
 
 ### Work Session 1 - Miesha
-Time Spent: 45 minutes
-- Created the GitHub repository
-- Added Shahima as collaborator
-- Cloned project in PyCharm
-- Added organizer.py
-- Implemented folder path validation
-
----
+- Created repository and initial setup  
+- Added basic program structure  
 
 ### Work Session 2 - Shahima
-Time Spent: 30 minutes
-- Added category folders (Images, PDFs, Documents, Videos, Music, Others)
-- Tested folder creation functionality
-
----
+- Implemented category folder creation  
 
 ### Work Session 3 - Miesha
-Time Spent: 40 minutes
-- Added file extension detection
-- Implemented file moving logic
-- Added error handling for restricted files
-- Tested sorting functionality
-
----
+- Added file detection and moving logic  
 
 ### Work Session 4 - Shahima
-Time Spent: 30 minutes
-- Added support for additional file types (GIF, DOC, MOV, WAV, CSV, XLSX, PPTX)
-- Improved category structure
-- Tested updated sorting
-
----
+- Expanded supported file types  
 
 ### Work Session 5 - Miesha
-Time Spent: 20 minutes
-- Improved input handling using `.strip()`
-- Tested user input validation
-
----
+- Improved user input handling  
 
 ### Work Session 6 - Shahima
-Time Spent: 30 minutes
-- Added summary count of moved files
-- Displayed categorized file counts
-- Improved output readability
-
----
+- Added summary count feature  
 
 ### Work Session 7 - Miesha
-Time Spent: 15 minutes
-- Added check to skip hidden/system files
-- Prevented unnecessary processing errors
-
----
+- Skipped hidden/system files  
 
 ### Work Session 8 - Shahima
-Time Spent: 10 minutes
-- Improved invalid folder error message
-- Enhanced user experience
-
----
+- Improved error messages  
 
 ### Work Session 9 - Miesha
-Time Spent: 10 minutes
-- Added support for archive files (.zip, .rar)
-- Expanded file categorization
-
----
+- Added archive file support  
 
 ### Work Session 10 - Shahima
-Time Spent: 10 minutes
-- Added final success message
-- Improved overall program usability
-- ---
-
-## How to Run
-
-1. Open the project in PyCharm.
-2. Open the file named `organizer.py`.
-3. Run the program.
-4. Enter the full path of the folder you want to organize.
-5. The program will create category folders and move files into the correct folders.
-6. ---
-
-## User Manual
-
-- Run the program using `organizer.py`.
-- Enter a valid folder path when prompted.
-- The program will automatically create folders for different file types.
-- Files will be moved into their respective folders.
-- A summary will be displayed showing how many files were moved.
-- ---
-
-## Supported File Types
-
-- Images: .jpg, .png, .jpeg, .gif  
-- PDFs: .pdf  
-- Documents: .docx, .txt, .doc  
-- Videos: .mp4, .mov  
-- Music: .mp3, .wav  
-- Spreadsheets: .csv, .xlsx  
-- Slides: .pptx  
-- Archives: .zip, .rar  
-- ---
-
-## Testing Notes
-
-- Tested with folders containing different file types (images, documents, videos, etc.)
-- Verified that files are moved to correct category folders
-- Checked that new folders are created if they do not exist
-- Tested invalid folder paths to confirm proper error handling
-- Confirmed summary output displays correct file counts
-- ---
-
-## Troubleshooting
-
-- If the program says "Invalid folder path", make sure the path exists and is typed correctly.
-- Do not use system folders like `C:\` or `C:\Windows` to avoid permission errors.
-- If some files are not moved, they may be in use by another program.
-- Make sure Python is configured correctly in PyCharm.
+- Final cleanup and usability improvements  
