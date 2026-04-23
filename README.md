@@ -117,3 +117,12 @@ Time Spent: 10 minutes
 3. Run the program.
 4. Enter the full path of the folder you want to organize.
 5. The program will create category folders and move files into the correct folders.
+6. ---
+
+## User Manual
+
+- Run the program using `organizer.py`.
+- Enter a valid folder path when prompted.
+- The program will automatically create folders for different file types.
+- Files will be moved into their respective folders.
+- A summary will be displayed showing how many files were moved.
