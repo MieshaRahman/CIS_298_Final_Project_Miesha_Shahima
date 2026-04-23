@@ -41,3 +41,10 @@ Time Spent: 20 minutes
 - Tested folder path input again
 - Test commit
 - Shahima test commit
+- ### Work Session 6 - Shahima
+Time Spent: 30 minutes
+
+- Added feature to count how many files are moved into each category
+- Displayed a summary at the end of the program
+- Improved output so users can clearly see results after execution
+- Tested program with different file types to verify accuracy
