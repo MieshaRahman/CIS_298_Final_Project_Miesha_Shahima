@@ -13,7 +13,8 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
         "Videos": [".mp4", ".mov"],
         "Music": [".mp3", ".wav"],
         "Spreadsheets": [".csv", ".xlsx"],
-        "Slides": [".pptx"]
+        "Slides": [".pptx"],
+        "Archives": [".zip", ".rar"]
     }
 
     file_counts = {}
@@ -37,7 +38,8 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
     for file in files:
         file_path = os.path.join(folder_path, file)
 
-        if os.path.isfile(file_path):
+        # Skip hidden/system files and only move regular files
+        if os.path.isfile(file_path) and not file.startswith("."):
             file_ext = os.path.splitext(file)[1].lower()
             moved = False
 
@@ -64,7 +66,7 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
     for category, count in file_counts.items():
         print(f"{category}: {count} files")
 
-    print("File organization completed.")
+    print("File organization completed successfully!")
 
 else:
     print("Invalid folder path. Please enter a valid existing folder.")

@@ -48,3 +48,38 @@ Time Spent: 30 minutes
 - Displayed a summary at the end of the program
 - Improved output so users can clearly see results after execution
 - Tested program with different file types to verify accuracy
+- ## Work Log
+
+### Work Session 6 - Shahima
+Time Spent: 30 minutes
+- Added summary count of moved files
+- Displayed number of files moved into each category
+- Improved program output for better readability
+
+---
+
+### Work Session 7 - Miesha
+Time Spent: 15 minutes
+- Added check to skip hidden/system files
+- Prevented errors caused by system or hidden files
+
+---
+
+### Work Session 8 - Shahima
+Time Spent: 10 minutes
+- Improved error message for invalid folder input
+- Made program more user-friendly
+
+---
+
+### Work Session 9 - Miesha
+Time Spent: 10 minutes
+- Added support for archive files (.zip, .rar)
+- Expanded file categorization functionality
+
+---
+
+### Work Session 10 - Shahima
+Time Spent: 10 minutes
+- Added final success message after program completion
+- Improved overall user experience
