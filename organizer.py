@@ -1,11 +1,14 @@
 import os
 import shutil
 
+# Get folder path from user and remove extra spaces
 folder_path = input("Enter the folder path you want to organize: ").strip()
 
+# Check if the folder path exists and is valid
 if os.path.exists(folder_path) and os.path.isdir(folder_path):
     print("Folder found successfully.")
 
+    # Define file categories based on file extensions
     categories = {
         "Images": [".jpg", ".png", ".jpeg", ".gif"],
         "PDFs": [".pdf"],
@@ -17,17 +20,20 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
         "Archives": [".zip", ".rar"]
     }
 
+    # Initialize file counters for the summary output
     file_counts = {}
     for category in categories:
         file_counts[category] = 0
     file_counts["Others"] = 0
 
+    # Create category folders if they do not already exist
     for category in categories:
         category_path = os.path.join(folder_path, category)
         if not os.path.exists(category_path):
             os.mkdir(category_path)
             print(f"Created folder: {category}")
 
+    # Create Others folder for unsupported file types
     others_path = os.path.join(folder_path, "Others")
     if not os.path.exists(others_path):
         os.mkdir(others_path)
@@ -35,6 +41,7 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
 
     files = os.listdir(folder_path)
 
+    # Go through each file in the selected folder
     for file in files:
         file_path = os.path.join(folder_path, file)
 
@@ -44,6 +51,7 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
             moved = False
 
             try:
+                # Move file into the matching category folder
                 for category, extensions in categories.items():
                     if file_ext in extensions:
                         shutil.move(file_path, os.path.join(folder_path, category, file))
@@ -52,6 +60,7 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
                         moved = True
                         break
 
+                # Move unsupported file types into Others folder
                 if not moved:
                     shutil.move(file_path, os.path.join(folder_path, "Others", file))
                     print(f"Moved {file} -> Others")
@@ -62,6 +71,7 @@ if os.path.exists(folder_path) and os.path.isdir(folder_path):
             except Exception as e:
                 print(f"Could not move {file}: {e}")
 
+    # Print summary after organizing files
     print("\nSummary:")
     for category, count in file_counts.items():
         print(f"{category}: {count} files")
