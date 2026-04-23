@@ -147,3 +147,11 @@ Time Spent: 10 minutes
 - Checked that new folders are created if they do not exist
 - Tested invalid folder paths to confirm proper error handling
 - Confirmed summary output displays correct file counts
+- ---
+
+## Troubleshooting
+
+- If the program says "Invalid folder path", make sure the path exists and is typed correctly.
+- Do not use system folders like `C:\` or `C:\Windows` to avoid permission errors.
+- If some files are not moved, they may be in use by another program.
+- Make sure Python is configured correctly in PyCharm.
