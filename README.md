@@ -102,3 +102,9 @@ This project is a Python File Organizer Tool that automatically organizes files 
 
 ### Work Session 10 - Shahima
 - Final cleanup and usability improvements  
+- ---
+
+## Final Notes
+- This project demonstrates file handling using Python
+- It improves file organization automatically
+- Future improvements may include GUI support and more file categories
