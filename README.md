@@ -20,3 +20,7 @@ Time Spent: 45 minutes
 - Cloned the repository into PyCharm
 - Added organizer.py
 - Added starter code for folder path validation
+- ### Work Session 2 - Shahima
+Time Spent: 30 minutes
+- Added category folders for Images, PDFs, Documents, Videos, Music, and Others
+- Tested automatic folder creation inside the selected directory
