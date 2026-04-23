@@ -39,3 +39,4 @@ Time Spent: 30 minutes
 Time Spent: 20 minutes
 - Improved user input handling by removing extra spaces from the folder path
 - Tested folder path input again
+- Test commit
