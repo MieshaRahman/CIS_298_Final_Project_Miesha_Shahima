@@ -108,3 +108,12 @@ Time Spent: 10 minutes
 Time Spent: 10 minutes
 - Added final success message
 - Improved overall program usability
+- ---
+
+## How to Run
+
+1. Open the project in PyCharm.
+2. Open the file named `organizer.py`.
+3. Run the program.
+4. Enter the full path of the folder you want to organize.
+5. The program will create category folders and move files into the correct folders.
