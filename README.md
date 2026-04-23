@@ -126,3 +126,15 @@ Time Spent: 10 minutes
 - The program will automatically create folders for different file types.
 - Files will be moved into their respective folders.
 - A summary will be displayed showing how many files were moved.
+- ---
+
+## Supported File Types
+
+- Images: .jpg, .png, .jpeg, .gif  
+- PDFs: .pdf  
+- Documents: .docx, .txt, .doc  
+- Videos: .mp4, .mov  
+- Music: .mp3, .wav  
+- Spreadsheets: .csv, .xlsx  
+- Slides: .pptx  
+- Archives: .zip, .rar  
