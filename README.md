@@ -138,3 +138,12 @@ Time Spent: 10 minutes
 - Spreadsheets: .csv, .xlsx  
 - Slides: .pptx  
 - Archives: .zip, .rar  
+- ---
+
+## Testing Notes
+
+- Tested with folders containing different file types (images, documents, videos, etc.)
+- Verified that files are moved to correct category folders
+- Checked that new folders are created if they do not exist
+- Tested invalid folder paths to confirm proper error handling
+- Confirmed summary output displays correct file counts
