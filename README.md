@@ -24,3 +24,9 @@ Time Spent: 45 minutes
 Time Spent: 30 minutes
 - Added category folders for Images, PDFs, Documents, Videos, Music, and Others
 - Tested automatic folder creation inside the selected directory
+### Work Session 3 - Miesha
+Time Spent: 40 minutes
+- Added file extension detection
+- Added file moving logic for Images, PDFs, Documents, Videos, Music, and Others
+- Added safer error handling for locked or restricted files
+- Tested sorting files into correct folders
