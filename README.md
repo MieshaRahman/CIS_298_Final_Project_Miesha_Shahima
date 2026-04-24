@@ -72,36 +72,86 @@ This project is a Python File Organizer Tool that automatically organizes files 
 
 ## Work Log
 
-### Work Session 1 - Miesha
-- Created repository and initial setup  
-- Added basic program structure  
+Work Session 1 - Miesha  
+Time Spent: 45 minutes  
+- Created GitHub repository  
+- Added Shahima as collaborator  
+- Cloned project into PyCharm  
+- Created initial `organizer.py` file  
+- Implemented basic folder path validation  
 
-### Work Session 2 - Shahima
-- Implemented category folder creation  
+---
 
-### Work Session 3 - Miesha
-- Added file detection and moving logic  
+Work Session 2 - Shahima  
+Time Spent: 30 minutes  
+- Implemented category folder creation (Images, PDFs, Documents, Videos, Music, Others)  
+- Ensured folders are created only if they do not exist  
+- Tested folder creation functionality  
 
-### Work Session 4 - Shahima
-- Expanded supported file types  
+---
 
-### Work Session 5 - Miesha
-- Improved user input handling  
+Work Session 3 - Miesha  
+Time Spent: 40 minutes  
+- Added file extension detection using `os.path.splitext()`  
+- Implemented file moving logic using `shutil.move()`  
+- Organized files into appropriate category folders  
+- Tested file sorting functionality  
 
-### Work Session 6 - Shahima
-- Added summary count feature  
+---
 
-### Work Session 7 - Miesha
-- Skipped hidden/system files  
+Work Session 4 - Shahima  
+Time Spent: 30 minutes  
+- Added support for additional file types (GIF, DOC, MOV, WAV, CSV, XLSX, PPTX)  
+- Expanded categories to include Spreadsheets and Slides  
+- Tested updated file categorization  
 
-### Work Session 8 - Shahima
-- Improved error messages  
+---
 
-### Work Session 9 - Miesha
-- Added archive file support  
+Work Session 5 - Miesha  
+Time Spent: 20 minutes  
+- Improved user input handling using `.strip()`  
+- Reduced input errors caused by extra spaces  
+- Retested program with different folder paths  
 
-### Work Session 10 - Shahima
-- Final cleanup and usability improvements  
+---
+
+Work Session 6 - Shahima  
+Time Spent: 30 minutes  
+- Implemented file count tracking for each category  
+- Added summary output displaying number of files moved  
+- Improved output readability for users  
+
+---
+
+Work Session 7 - Miesha  
+Time Spent: 15 minutes  
+- Added logic to skip hidden/system files  
+- Prevented errors from processing restricted files  
+- Tested behavior with system files  
+
+---
+
+Work Session 8 - Shahima  
+Time Spent: 10 minutes  
+- Improved error message for invalid folder paths  
+- Made program output more user-friendly  
+- Tested invalid input scenarios  
+
+---
+
+Work Session 9 - Miesha  
+Time Spent: 10 minutes  
+- Added support for archive file types (.zip, .rar)  
+- Updated categorization logic to include Archives  
+- Verified correct movement of archive files  
+
+---
+
+Work Session 10 - Shahima  
+Time Spent: 10 minutes  
+- Performed final code cleanup and formatting  
+- Improved README documentation  
+- Verified overall program functionality  
 - ---
 
 ## Final Notes
