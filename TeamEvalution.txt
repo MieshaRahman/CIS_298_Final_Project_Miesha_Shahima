@@ -1,0 +1,41 @@
+Team Evaluation (Out of 10 per session)
+
+Work Session 1
+Miesha: 9/10 – Led repository setup, added collaborator, and started project structure.
+Shahima: 8/10 – Contributed to setup and initial planning.
+
+Work Session 2
+Miesha: 8/10 – Assisted with testing folder creation.
+Shahima: 7/10 – Took the lead in implementing category folders.
+
+Work Session 3
+Miesha: 9/10 – Implemented core file moving logic.
+Shahima: 9/10 – Helped test and verify file organization.
+
+Work Session 4
+Miesha: 8/10 – Reviewed updates and tested functionality.
+Shahima: 9/10 – Added support for additional file types.
+
+Work Session 5
+Miesha: 7/10 – Improved input handling and testing.
+Shahima: 8/10 – Assisted with validation and commits.
+
+Work Session 6
+Miesha: 8/10 – Helped verify summary output.
+Shahima: 9/10 – Implemented summary count feature.
+
+Work Session 7
+Miesha: 9/10 – Added handling for hidden/system files.
+Shahima: 8/10 – Tested and reviewed updates.
+
+Work Session 8
+Miesha: 8/10 – Reviewed program behavior.
+Shahima: 9/10 – Improved error handling messages.
+
+Work Session 9
+Miesha: 9/10 – Added archive file support.
+Shahima: 8/10 – Assisted in testing functionality.
+
+Work Session 10
+Miesha: 9/10 – Final testing and minor improvements.
+Shahima: 9/10 – Final documentation and cleanup.
