@@ -1,5 +1,3 @@
-Team Evaluation (Out of 10 per session)
-
 Work Session 1
 Miesha: 9/10 – Led repository setup, added collaborator, and started project structure.
 Shahima: 8/10 – Contributed to setup and initial planning.
